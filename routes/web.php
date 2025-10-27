@@ -3,9 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home',['jobs'=>[['title'=>'Director','salary'=>'$50,000'], ['title'=>'Programmer','salary'=>'$10,000'],['title'=>'Designer','salary'=>'$40,000']],
-
-       ]);
+    return view('home');
 });
 
 Route::get('/about', function () {
