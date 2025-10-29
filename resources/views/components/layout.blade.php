@@ -24,7 +24,7 @@
             <div class="flex h-16 items-center justify-between">
                 <div class="flex items-center">
                     <div class="shrink-0">
-                        <img class="size-8" src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
+                        <img class="size-8" src="https://amigoinformatics.com/wp-content/uploads/2025/01/Amigo-Informatics_logo_150x52.png" alt="Company Logo" />
                     </div>
                     <div class="hidden md:block">
                         <div class="ml-10 flex items-baseline space-x-4">
