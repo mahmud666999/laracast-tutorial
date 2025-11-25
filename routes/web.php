@@ -11,7 +11,8 @@ Route::get('/contacts', function () {
     return view('contact');
 });
 Route::get('/jobs', function () {
-    return view('jobs',['jobs'=>Job::all()]);
+    $jobs = Job::with("employer")->Paginate(3);
+    return view('jobs',['jobs'=>$jobs]);
 });
 
 Route::get('/jobs/{id}', function ($id) {
